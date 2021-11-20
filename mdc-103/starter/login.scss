@@ -1,6 +1,6 @@
-@import "./common";
-@import "@material/textfield/mdc-text-field";
-@import "@material/button/mdc-button";
+@import './common';
+@import '@material/textfield/mdc-text-field';
+@import '@material/button/mdc-button';
 
 .header {
   text-align: center;
@@ -12,10 +12,9 @@
   padding-top: 80px;
   fill: currentColor;
 }
-
 .username,
 .password {
-  display: flex;
+  display: block;
   width: 300px;
   margin: 20px auto;
 }
@@ -29,4 +28,9 @@
 
 .button-container button {
   margin: 3px;
+}
+
+.shrine-login {
+  background-color: $mdc-theme-background;
+  color: $mdc-theme-on-background;
 }
